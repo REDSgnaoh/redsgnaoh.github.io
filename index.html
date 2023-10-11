@@ -277,16 +277,17 @@
         </blockquote> -->        
         <p>
           I am a PhD student in computer engineering at <a href="https://ruoxijia.info/reds/" target="_blank">Responsible Data Science Lab (ReDS Lab)</a> located at <a href="https://ece.vt.edu/" target="_blank">Virginia Polytechnic Institute and State University (Virginia Tech).</a> <br>
-          I am fortunate to be advised by <a href="https://ruoxijia.info/" target="_blank">Prof. Ruoxi Jia.</a>  <br>
+          I am fortunate to be advised by <a href="https://ruoxijia.info/" target="_blank"><b>Prof. Ruoxi Jia</b>.</a>  <br>
           I finished my bachelor degrees in mathematics and computer science at <a href="https://www.gettysburg.edu" target="_blank">Gettysburg College</a>, 
-          where I had a pleasure to work with <a href="https://belabajnok.net/" target="_blank">Prof. Béla Bajnok</a> and <a href="http://cs.gettysburg.edu/~tneller/" target="_blank">Prof. Todd Neller</a>, respectively.<br>
-          I enjoy working on data-centric AI, especially to measure the importance of each data point used to train a model.
+          where I had a pleasure to work with <a href="https://belabajnok.net/" target="_blank"><b>Prof. Béla Bajnok</b></a> and <a href="http://cs.gettysburg.edu/~tneller/" target="_blank"><b>Prof. Todd Neller</b></a>, respectively.<br>
+          I enjoy working on <b>data-centric AI</b>, especially to measure the <b>importance of</b> each <b>data</b> point used to train a model.
           
-          <ul> <b>Focus Questions</b>
-            <li>How to choose the best data to meet the model owner's target?</li>
-            <li>How to predict the model performance given training data?</li>
-            <li>How to protect your data used to train a model?</li>
-            <li>How to extract data used to train a model?</li>
+          <ul> <b>Focus Questions:</b>
+            <li><b>[Data Valuation]</b> <br>How much does the data cost?</li>
+            <li><b>[Data Selection]</b> <br>How to choose the best data to meet the model owner's target?</li>
+            <li><b>[Model Prediction]</b> <br>How to predict the model performance given training data?</li>
+            <li><b>[AI Privacy]</b> <br>How to protect your data used to train a model?</li>
+            <li><b>[Data Leakage]</b> <br>How to extract data used to train a model?</li>
           </ul>
       </div>
     </section>
@@ -310,9 +311,19 @@
             </div>
             <div class="role brown-text text-darken-2">NeurIPS 2023
             </div>
-              Feiyang Kang*, Hoang Anh Just*, Anit Sahu, Ruoxi Jia
+            <h6>Feiyang Kang*, <b>Hoang Anh Just*</b>, Anit Sahu, Ruoxi Jia</h6>
+            <ul>
+              <li>
+              Proposed a performance estimator for a model trained on any data composition given only sample information and a
+scaling law to predict performance on larger scales, which effectively finds the optimal composition of data sources for
+any target data size.
+              </li>
+            </ul>
+            
           </div>
         </div>
+
+        
 
         <div class="card">
           <div class="card-content">
@@ -327,7 +338,14 @@
             </div>
             <div class="role brown-text text-darken-2">ACM CCS 2023
             </div>
-              Yi Zeng*, Minzhou Pan*, Hoang Anh Just, Lingjuan Lyu, Meikang Qiu and Ruoxi Jia
+              <h6>Yi Zeng*, Minzhou Pan*, <b>Hoang Anh Just</b>, Lingjuan Lyu, Meikang Qiu and Ruoxi Jia</h6>
+
+            <ul>
+              <li>
+              Launched an efficient (poisoning 0.5% of the target class and 0.05% of the entire training dataset) and stealthy (hard to
+detect) backdoor attack, which requires only knowledge of the target class to successfully deploy the attack.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -344,7 +362,14 @@
             </div>
             <div class="role brown-text text-darken-2">RAID 2023
             </div>
-              Myoengseob Ko, Xinyu Yang, Zhengjie Ji, Hoang Anh Just, Peng Gao, Ruoxi Jia
+              <h6>Myoengseob Ko, Xinyu Yang, Zhengjie Ji, <b>Hoang Anh Just</b>, Peng Gao, Ruoxi Jia</h6>
+          
+            <ul>
+              <li>
+              Established an efficient real-time detection system to membership inference attacks which prevents attackers from
+inferring sensitive data used for model training.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -361,7 +386,13 @@
             </div>
             <div class="role brown-text text-darken-2">ICML 2023
             </div>
-              Liu Zhihong*, Hoang Anh Just*, Xiangyu Chang, Xi Chen, Ruoxi Jia
+              <h6>Liu Zhihong*, <b>Hoang Anh Just*</b>, Xiangyu Chang, Xi Chen, Ruoxi Jia</h6>
+            <ul>
+              <li>
+              Proposed a novel, efficient approach to fine-grained data analysis, which valuates the quality of each feature of each
+data point with theoretical grounding.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -378,11 +409,17 @@
             </div>
             <div class="role brown-text text-darken-2">ICLR 2023
             </div>
-              Hoang Anh Just*, Feiyang Kang*, Tianhao Wang, Yi Zeng, Myeongseob Ko, Ming Jin and Ruoxi Jia
+              <h6><b>Hoang Anh Just*</b>, Feiyang Kang*, Tianhao Wang, Yi Zeng, Myeongseob Ko, Ming Jin and Ruoxi Jia</h6>
+            <ul>
+              <li>
+              Introduced an efficient data quality valuation method through adopting a modified class-wise Wasserstein distance,
+which is robust to noisy, mislabeled, and poisoned data without requiring any model training.
+              </li>
+            </ul>
           </div>
 
           <div class="card-action">
-            <span>Spotlight</span>
+            <span><b style="color:red;">SPOTLIGHT</b></span>
           </div>
         </div>
 
@@ -399,7 +436,14 @@
             </div>
             <div class="role brown-text text-darken-2">IEEE SatML 2023
             </div>
-              Yingyan Zeng, Tianhao Wang, Si Chen, Hoang Anh Just, Ran Jin, Ruoxi Jia
+              <h6>Yingyan Zeng, Tianhao Wang, Si Chen, <b>Hoang Anh Just</b>, Ran Jin, Ruoxi Jia</h6>
+            <ul>
+              <li>
+              Developed a set-function based neural network which can predict model weights from the training dataset of any size.
+This method enables efficient applications for data valuation, data selection, or data memorization, which requires
+multiple model re-trainings.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -416,7 +460,13 @@
             </div>
             <div class="role brown-text text-darken-2">CVPR 2022
             </div>
-              Mostafa Kahla, Si Chen, Hoang Anh Just, Ruoxi Jia
+              <h6>Mostafa Kahla, Si Chen, <b>Hoang Anh Just</b>, Ruoxi Jia</h6>
+            <ul>
+              <li>
+              Designed a novel practical model inversion attack which recovers sensitive data by accessing only labels of the model
+output without additional information.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -431,11 +481,20 @@
                 </p>
               </div>
             </div>
-            <div class="role brown-text text-darken-2">Involve, 12/2022
+            <div class="role brown-text text-darken-2">Involve 2022
             </div>
-              Bela Bajnok, Connor Berson and Hoang Anh Just
+              <h6>Bela Bajnok, Connor Berson and <b>Hoang Anh Just</b></h6>
+
+            <ul>
+              <li>
+              Proved that for sets of size greater than 3, there are no perfect restricted 2-basis in Z_n. Showed that for only sets
+of size smaller equal to 3 there exists a perfect restricted 2-basis in Z_n, proving by contradiction knowing that Z_n is
+closed under both addition and subtraction.
+              </li>
+            </ul>
           </div>
           <div class="card-action">Involve, a Journal of Mathematics, 12/2022</div>
+          
         </div>
 
         <div class="card">
@@ -450,8 +509,16 @@
               </div>
             </div>
             <div class="role brown-text text-darken-2">AAAI 2021
+            
             </div>
-              Peter Francis*, Hoang Anh Just*, Todd Neller
+            <h6>Peter Francis*, <b>Hoang Anh Just*</b>, Todd Neller</h6>
+
+            <ul>
+              <li>
+              We describe various approaches to opponent hand estimation in the card game Gin Rummy. We use an application of Bayes' rule, as well as both simple and convolutional neural networks, to recognize patterns in simulated game play and predict the opponent's hand. We also present a new minimal-sized construction
+for using arrays to pre-populate hand representation images.
+              </li>
+            </ul>
           </div>
         </div>
 
