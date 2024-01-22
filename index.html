@@ -208,7 +208,12 @@
   <main>
     <!-- First Section: Heading lines and image -->
     <section id="intro" class="section scrollspy full-height">
-      <img src="/assets/img/tigre_hor.png" class="overlay" alt="avatar">
+      <!-- <img src="/assets/img/tigre_hor.png" class="overlay" alt="avatar"> -->
+      <picture class="overlay" alt="avatar">
+          <source media="(min-width: 900px)" srcset="/assets/img/tigre_hor.png" >
+          <source media="(min-width: 00px)" srcset="/assets/img/tigre.jpg" >
+          <img src="/assets/img/tigre_hor.png" alt="IfItDoesntMatchAnyMedi" style="height: 100%;left: 0;  position: absolute;  top: 0;  width: 100%;">
+      </picture>
       <div class="overlay"></div>
       <div class="container">
         <div class="col-md-9">
@@ -216,7 +221,7 @@
             <div class="caption">
               <h2>Hi, I'm <span class="teal">Hoàng Anh Just.</span></h2>
               <script>
-              const myList = ["Hi", "Hello", "Howdy", "Chào"];
+              const myList = ["Hi", "Hello", "Howdy", "Xin Chào"];
 
               randomizeFunction()
 
@@ -300,6 +305,30 @@
       <div class="container">
 
         <!-- Latest Research -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://openreview.net/pdf?id=QmYNBVukex" target="_blank"
+                      class="teal-text hoverline">Get more for less: Principled Data Selection for Warming Up Fine-Tuning in LLMs</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">ICLR 2024
+            </div>
+            <h6>Feiyang Kang, <b>Hoang Anh Just</b>, Yifan Sun, Himanshu Jahagirdar, Yuanzhi Zhang, Rongxing Du, Anit Sahu, Ruoxi Jia</h6>
+            <ul>
+              <li>
+              Developed a scalable data selection method to pre-fine-tune a pretrained large language model (LLM) by selecting (unlabeled) data that can shift the source distribution to better align with the target distribution.
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+
+
+
         <div class="card">
           <div class="card-content">
             <div class="row">
